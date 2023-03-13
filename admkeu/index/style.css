@@ -1,0 +1,29 @@
+/* navbar */
+.navbar-brand {
+    font-family: 'Post No Bills Jaffna ExtraBold';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 32px;
+    line-height:  25px;
+    color: #f7f7f7;
+}
+
+
+
+/* Mode Desktop  */
+@media (min-width : 992px) {
+    .nav-link {
+        text-transform: uppercase;
+        margin-right: 25px;
+    }
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #ebd0d0;
+        width: auto;
+        margin: auto;
+        padding-bottom: 5px ;
+
+    }       
+}
+ 
